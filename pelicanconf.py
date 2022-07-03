@@ -3,7 +3,7 @@ SITENAME = 'Shakyra C. Cornelius'
 SITEURL = ''
 
 ABOUT_ME = 'Here to learn. Here to share'
-AVATAR = '/Users/shakyracornelius/Development/Pelican/virtualenvs/staticsite/shakyracc/content/images/site_logo.jpg'
+AVATAR = '/images/site_logo.png'
 
 # Paths
 PATH = 'content'
