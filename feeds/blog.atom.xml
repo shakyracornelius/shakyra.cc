@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shakyra C. Cornelius - blog</title><link href="https://shakyracornelius.github.io/shakyracc/" rel="alternate"></link><link href="https://shakyracornelius.github.io/shakyracc/feeds/blog.atom.xml" rel="self"></link><id>https://shakyracornelius.github.io/shakyracc/</id><updated>2022-07-02T00:00:00-04:00</updated><entry><title>ps -ax | grep mysql</title><link href="https://shakyracornelius.github.io/shakyracc/ps-ax-grep-mysql.html" rel="alternate"></link><published>2022-07-02T00:00:00-04:00</published><updated>2022-07-02T00:00:00-04:00</updated><author><name>shak</name></author><id>tag:shakyracornelius.github.io,2022-07-02:/shakyracc/ps-ax-grep-mysql.html</id><summary type="html">&lt;p&gt;Used to check for the MySQL processes working in the background. &lt;/p&gt;
+&lt;h2&gt;ps&lt;/h2&gt;
+&lt;p&gt;Short for Process Status, the ps command is used to list the status of running processes in the system. By default, it only lists processes of the current user. &lt;/p&gt;
+&lt;h2&gt;-ax&lt;/h2&gt;
+&lt;p&gt;An option passed to ps which allows one …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Used to check for the MySQL processes working in the background. &lt;/p&gt;
+&lt;h2&gt;ps&lt;/h2&gt;
+&lt;p&gt;Short for Process Status, the ps command is used to list the status of running processes in the system. By default, it only lists processes of the current user. &lt;/p&gt;
+&lt;h2&gt;-ax&lt;/h2&gt;
+&lt;p&gt;An option passed to ps which allows one to list all process, even beyond the current user. 
+- - specifies a standard output. often used as synonym for stdin or stdout.
+- a lists processes for all users
+- x shows processes not attached to a terminal (i.e. not initiated by users through a terminal) &lt;/p&gt;
+&lt;h2&gt;| grep&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;grep with a pipe allows one to search for specific processes. The use of the pipe here is called "piping", which redirects the output of one command to the input of another command.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mysql&lt;/h2&gt;
+&lt;p&gt;specifies mysql processes &lt;/p&gt;</content><category term="blog"></category><category term="sql"></category></entry></feed>
