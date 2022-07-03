@@ -2,6 +2,9 @@ AUTHOR = 'shak'
 SITENAME = 'Shakyra C. Cornelius'
 SITEURL = ''
 
+ABOUT_ME = 'Here to learn. Here to share'
+AVATAR = '/Users/shakyracornelius/Development/Pelican/virtualenvs/staticsite/shakyracc/content/images/site_logo.jpg'
+
 # Paths
 PATH = 'content'
 PAGE_PATHS = ['pages']
@@ -10,6 +13,9 @@ ARTICLE_PATHS = ['blog']
 # Top menus
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
+
+SIDEBAR_ON_LEFT = True
 
 TIMEZONE = 'America/Antigua'
 
