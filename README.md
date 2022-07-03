@@ -1,1 +1,1 @@
-# staticsite
+# shakyra.cc
