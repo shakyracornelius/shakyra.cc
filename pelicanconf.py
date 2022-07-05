@@ -66,6 +66,7 @@ PYGMENTS_STYLE = 'colorful'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGINS = ['i18n_subsites',]
 I18N_TEMPLATES_LANG = 'en'
+# BOOTSTRAP_FLUID = True
 
 
 # Custom CSS/JS

@@ -22,3 +22,6 @@ This site is a work in progress. Here's the roadmap, a list of tasks to complete
 | 2022-07-03     | create /resume           | inspo:<br>- AwesomeCV                                                                                                                        |                 |                |
 | 2022-07-03     | create /month-review     | inspo:<br>- bellebcooper.com                                                                                                                 |                 |                |
 | 2022-07-03     | create /blog             | inspo: <br>- flaviocopes.com                                                                                                                 |                 |                |
+
+
+onwards and upwards ! 🤸🏾‍♂️
