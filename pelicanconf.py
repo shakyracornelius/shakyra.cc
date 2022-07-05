@@ -78,9 +78,11 @@ CUSTOM_JS = 'static/js/custom.js'
 # Navbar
 DISPLAY_CATEGORIES_ON_MENU = False
 BOOTSTRAP_NAVBAR_INVERSE = True
-ARCHIVE_SAVE_AS = 'archives.html'
+ARCHIVES_SAVE_AS = 'archives.html'
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_ARCHIVE_ON_MENU = True
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
 
