@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
+    
 
 
 <link rel="canonical" href="./ps-ax-grep-mysql.html">
@@ -31,7 +33,7 @@
         <link rel="stylesheet" href="./theme/css/bootstrap.cyborg.min.css" type="text/css"/>
     <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+    <link href="./theme/css/pygments/colorful.css" rel="stylesheet">
     <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
         <link href="./static/css/custom.css" rel="stylesheet">
 
@@ -43,7 +45,7 @@
 </head>
 <body>
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -57,11 +59,12 @@ Shakyra C. Cornelius            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="./pages/about.html">
-                             About
+                         <li><a href="./pages/roadmap.html">
+                             Roadmap
                           </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Blog</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -74,7 +77,7 @@ Shakyra C. Cornelius            </a>
 <!-- Content Container -->
 <div class="container">
     <div class="row">
-        <div class="col-sm-9 col-sm-push-3">
+        <div class="col-lg-12">
     <section id="content">
         <article>
             <header class="page-header">
@@ -105,52 +108,24 @@ Shakyra C. Cornelius            </a>
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <p>Used to check for the MySQL processes working in the background. </p>
-<h2>ps</h2>
+<h4>ps</h4>
 <p>Short for Process Status, the ps command is used to list the status of running processes in the system. By default, it only lists processes of the current user. </p>
-<h2>-ax</h2>
+<h4>-ax</h4>
 <p>An option passed to ps which allows one to list all process, even beyond the current user. 
 - - specifies a standard output. often used as synonym for stdin or stdout.
 - a lists processes for all users
 - x shows processes not attached to a terminal (i.e. not initiated by users through a terminal) </p>
-<h2>| grep</h2>
+<h4>| grep</h4>
 <ul>
 <li>grep with a pipe allows one to search for specific processes. The use of the pipe here is called "piping", which redirects the output of one command to the input of another command.</li>
 </ul>
-<h2>mysql</h2>
+<h4>mysql</h4>
 <p>specifies mysql processes </p>
             </div>
             <!-- /.entry-content -->
         </article>
     </section>
 
-        </div>
-        <div class="col-sm-3 col-sm-pull-9" id="sidebar">
-            <aside>
-<div id="aboutme">
-        <p>
-            <img width="100%" class="img-thumbnail" src="./extra/site_logo.jpg"/>
-        </p>
-    <p>
-      <strong>About shak</strong><br/>
-        Here to learn. Here to share
-    </p>
-</div><!-- Sidebar -->
-<section class="well well-sm">
-  <ul class="list-group list-group-flush">
-
-<!-- Sidebar/Social -->
-<li class="list-group-item">
-  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
-  <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="https://twitter.com/shakyracc"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
-    <li class="list-group-item"><a href="https://github.com/shakyracornelius"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
-    <li class="list-group-item"><a href="https://www.instagram.com/shakyracc"><i class="fa fa-instagram fa-lg"></i> Instagram</a></li>
-  </ul>
-</li>
-<!-- End Sidebar/Social -->
-  </ul>
-</section>
-<!-- End Sidebar -->            </aside>
         </div>
     </div>
 </div>
