@@ -1,9 +1,8 @@
 title: ps -ax | grep mysql
-date: 2022-07-02
+date: 2022-07-01
 modified: 2022-07-02
 tags: sql
 slug: ps-ax-grep-mysql
-authors: shak
 
 Used to check for the MySQL processes working in the background. 
 

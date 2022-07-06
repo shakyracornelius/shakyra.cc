@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Setting Up MySQL on Mac 👩🏾‍💻 Shakyra C. Cornelius</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
+    
+
+
+<link rel="canonical" href="./setting-up-mysql-mac.html">
+
+        <meta name="author" content="shak" />
+        <meta name="keywords" content="sql" />
+        <meta name="description" content="I&#39;m using MySQL server because the book I&#39;m currently using to learn SQL (Learn SQL by Alan Beaulieu) uses it for all the examples. System Overview macOS Monterey version 12.4 MacBook Air (13-inch, 2017) 1.8 GHz Dual-Core Intel Core i5 8GB 1600 MHz DDR3 Setting up MySQL on …" />
+
+        <meta property="og:site_name" content="Shakyra C. Cornelius" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Setting Up MySQL on Mac"/>
+        <meta property="og:url" content="./setting-up-mysql-mac.html"/>
+        <meta property="og:description" content="I&#39;m using MySQL server because the book I&#39;m currently using to learn SQL (Learn SQL by Alan Beaulieu) uses it for all the examples. System Overview macOS Monterey version 12.4 MacBook Air (13-inch, 2017) 1.8 GHz Dual-Core Intel Core i5 8GB 1600 MHz DDR3 Setting up MySQL on …"/>
+        <meta property="article:published_time" content="2022-07-01" />
+            <meta property="article:section" content="sql" />
+            <meta property="article:tag" content="sql" />
+            <meta property="article:author" content="shak" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.cyborg.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/colorful.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+        <link href="./static/css/custom.css" rel="stylesheet">
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Shakyra C. Cornelius ATOM Feed"/>
+
+        <link href="./feeds/sql.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Shakyra C. Cornelius sql ATOM Feed"/>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+Shakyra C. Cornelius            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/roadmap.html">
+                             Roadmap
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Blog</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<!-- End Banner -->
+
+<!-- Content Container -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./setting-up-mysql-mac.html"
+                       rel="bookmark"
+                       title="Permalink to Setting Up MySQL on Mac">
+                        Setting Up MySQL on Mac
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2022-07-01T00:00:00-04:00"> Fri 01 July 2022</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/sql.html">sql</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>I'm using MySQL server because the book I'm currently using to learn SQL (Learn SQL by Alan Beaulieu) uses it for all the examples. </p>
+<p>System Overview 
+    macOS Monterey version 12.4<br>
+    MacBook Air (13-inch, 2017)<br>
+    1.8 GHz Dual-Core Intel Core i5
+    8GB 1600 MHz DDR3</p>
+<h4>Setting up MySQL on macOS</h4>
+<p>I'm following https://dev.mysql.com/doc/mysql-macos-excerpt/5.7/en/macos-installation-pkg.html </p>
+<ol>
+<li>Download the disk image (.dmg) file that contains the MySQL package installer <a href="https://dev.mysql.com/downloads/mysql/">here</a>.</li>
+<li>Select OS Version: macOS12(x86, 64-bit) </li>
+<li>Select Download for DMG Archive</li>
+<li>Select "No thanks, just start my download" when asked to Login Now.</li>
+<li>Once the download is complete select the .dmg file to mount the disk image and see its contents. </li>
+<li>Double-click the MySQL installer package to open the MySQL package installer wizard. In my case the installer package is named <em>mysql-8.0.29-macos12-x86_64.pkg</em>. <br>
+    Select Allow when the security message pops up.</li>
+<li>Once the installer wizard is open, <ul>
+<li>Select Continue to start the installation, </li>
+<li>Continue and Agree to the terms and conditions  </li>
+<li>Install to begin the installation process </li>
+</ul>
+</li>
+<li>After installation is complete, in the configuration window select "Use Strong Password Encryption".</li>
+<li>Enter a password for the "root" user then select Finish.</li>
+<li>Decide if you want to keep the installer around. I personally move these files to bin.</li>
+<li>Open System Preferences to find that MySQL is installed.</li>
+<li>Open terminal by hitting Command + Space on your keyboard and typing Terminal. Select Terminal</li>
+<li>Run <code>mysql -u root -p</code> to start working with MySQL in the terminal. <ul>
+<li>mysql = an SQL shell with input line editing capabilities.</li>
+<li>u = (user_name) the username of the MySQL account to use for connecting to the server.</li>
+<li>-u root = execute the command as the root user.</li>
+<li>-p = (password) the password of the MySQL account used for connecting to the server<br></li>
+</ul>
+</li>
+</ol>
+<p>Learn more about mysql, the MySQL command line client [here])https://dev.mysql.com/doc/refman/8.0/en/mysql.html) and from <a href="https://linux.die.net/man/1/mysql">man mysql</a>.</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<!-- <footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2022 shak
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer> -->
+
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+    <script src="./static/js/custom.js"></script>
+
+
+
+</body>
+</html>

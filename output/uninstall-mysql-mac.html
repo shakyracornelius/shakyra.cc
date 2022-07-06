@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>How to Uninstall MySQL on Mac 👩🏾‍💻 Shakyra C. Cornelius</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
+    
+
+
+<link rel="canonical" href="./uninstall-mysql-mac.html">
+
+        <meta name="author" content="shak" />
+        <meta name="keywords" content="sql" />
+        <meta name="description" content="I&#39;m uninstalling MySQL to do the install from scratch for the purpose of writing the &#34;Setting up MySQL on Mac&#34; blogpost. I&#39;m following steps from Asya&#39;s article. Key notes: For this to work, we&#39;re gonna have to remove all supporting files for MySQL server Applications usually store their service file …" />
+
+        <meta property="og:site_name" content="Shakyra C. Cornelius" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="How to Uninstall MySQL on Mac"/>
+        <meta property="og:url" content="./uninstall-mysql-mac.html"/>
+        <meta property="og:description" content="I&#39;m uninstalling MySQL to do the install from scratch for the purpose of writing the &#34;Setting up MySQL on Mac&#34; blogpost. I&#39;m following steps from Asya&#39;s article. Key notes: For this to work, we&#39;re gonna have to remove all supporting files for MySQL server Applications usually store their service file …"/>
+        <meta property="article:published_time" content="2022-07-01" />
+            <meta property="article:section" content="sql" />
+            <meta property="article:tag" content="sql" />
+            <meta property="article:author" content="shak" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.cyborg.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/colorful.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+        <link href="./static/css/custom.css" rel="stylesheet">
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Shakyra C. Cornelius ATOM Feed"/>
+
+        <link href="./feeds/sql.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Shakyra C. Cornelius sql ATOM Feed"/>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+Shakyra C. Cornelius            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/roadmap.html">
+                             Roadmap
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Blog</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<!-- End Banner -->
+
+<!-- Content Container -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./uninstall-mysql-mac.html"
+                       rel="bookmark"
+                       title="Permalink to How to Uninstall MySQL on Mac">
+                        How to Uninstall MySQL on Mac
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2022-07-01T00:00:00-04:00"> Fri 01 July 2022</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/sql.html">sql</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>I'm uninstalling MySQL to do the install from scratch for the purpose of writing the "Setting up MySQL on Mac" blogpost. </p>
+<p>I'm following steps from <a href="https://nektony.com/how-to/uninstall-mysql-on-mac">Asya's</a> article.</p>
+<p>Key notes:</p>
+<ul>
+<li>For this to work, we're gonna have to remove all supporting files for MySQL server</li>
+<li>Applications usually store their service file in the Library folder but might sprinkle them around your device. <ul>
+<li>What is the Library folder? </li>
+<li>A folder that comes with your Mac and is used to store settings, preferences, cache etc... It can be found in the root directory (usually Macintosh HD) <a href="https://www.macrumors.com/how-to/reveal-library-folder-in-macos/">1</a>, <a href="https://support.apple.com/en-gb/guide/mac-help/mchlp1143/mac">2</a></li>
+</ul>
+</li>
+<li>Tread carefully, deleting service files can damage your system. </li>
+</ul>
+<h4>Steps to Uninstall</h4>
+<ol>
+<li>Open System Preferences by hitting Command ⌘ + Space on your keyboard then typing System Preferences</li>
+<li>Select MySQL (usually located way at the bottom of the window). In the MySQL window, select Uninstall.</li>
+<li>Remove MySQL database using the Terminal command line. See steps below. </li>
+<li>Open Terminal by hitting Command ⌘ + Space on your keyboard then typing Terminal</li>
+<li>
+<p>We will now enter a series of commands to back up and remove the databases. Hit return after each command.</p>
+<ol>
+<li>To back up data: <br>
+<code>mysqldump</code></li>
+<li>
+<p>To check if MySQL processes are working in the background: <br>
+<a href="./ps-ax-grep-mysql.html"><code>ps -ax | grep mysql</code></a> <br>
+A result like the following tells us that the only running process is the grep command and no mysql processes are running:</p>
+<blockquote>
+<p>728135 ttys000    0:00.01 grep mysql</p>
+</blockquote>
+</li>
+<li>
+<p>To remove the msql directory (if required, enter your user password): <br>
+<code>sudo rm /usr/local/mysql</code><br></p>
+<ul>
+<li>sudo = short for "superuser do", allows one to run commands as super user</li>
+<li>rm = stands for remove, is used to delete files and directories 1</li>
+<li>/usr/local/mysql = specifies the directory to remove </li>
+</ul>
+</li>
+<li>To remove MySQL files (press enter after each command):
+<code>sudo rm -rf /usr/local/var/mysql</code><ul>
+<li>"-r" = (-recursive), recursively deletes everything in a directory  </li>
+<li>"-f" = (-force), used to avoid prompts asking if you want to remove the file 1 <br>
+<code>sudo rm -rf /usr/local/mysql*</code><br>
+<code>sudo rm ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist</code><br>
+<code>sudo rm -rf /Library/StartupItems/MySQLCOM</code><br>
+<code>sudo rm -rf /Library/PreferencePanes/My*</code><br>
+Edit /etc/hostconfig and remove the line MYSQLCOM=-YES- <br>
+Remove MySQL preferences: <br>
+<code>rm -rf ~/Library/PreferencePanes/My*</code><br>
+<code>sudo rm -rf /Library/Receipts/mysql*</code><br>
+<code>sudo rm -rf /Library/Receipts/MySQL*</code><br>
+<code>sudo rm -rf /private/var/db/receipts/*mysql*</code><br></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>Restart your Mac to ensure all MySQL processes are killed. MySQL should now be uninstalled completely.</p>
+</li>
+</ol>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<!-- <footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2022 shak
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer> -->
+
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+    <script src="./static/js/custom.js"></script>
+
+
+
+</body>
+</html>

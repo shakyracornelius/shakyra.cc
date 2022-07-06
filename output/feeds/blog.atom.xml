@@ -1,43 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Shakyra C. Cornelius - blog</title><link href="https://shakyracornelius.github.io/shakyracc/" rel="alternate"></link><link href="https://shakyracornelius.github.io/shakyracc/feeds/blog.atom.xml" rel="self"></link><id>https://shakyracornelius.github.io/shakyracc/</id><updated>2022-07-03T00:00:00-04:00</updated><entry><title>Creating the Site</title><link href="https://shakyracornelius.github.io/shakyracc/creating-the-site.html" rel="alternate"></link><published>2022-07-03T00:00:00-04:00</published><updated>2022-07-03T00:00:00-04:00</updated><author><name>shak</name></author><id>tag:shakyracornelius.github.io,2022-07-03:/shakyracc/creating-the-site.html</id><summary type="html">&lt;p&gt;It took me 24 long, frustrating hours to create this site. &lt;/p&gt;
-&lt;p&gt;I know I know... it doesn't look very impressive, but the creation of this site involved:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;registering the domains ($)&lt;/li&gt;
-&lt;li&gt;installing python. which apparently isn't so straight forward when your mac comes with python already but that version shouldn't be …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;It took me 24 long, frustrating hours to create this site. &lt;/p&gt;
-&lt;p&gt;I know I know... it doesn't look very impressive, but the creation of this site involved:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;registering the domains ($)&lt;/li&gt;
-&lt;li&gt;installing python. which apparently isn't so straight forward when your mac comes with python already but that version shouldn't be messed with...risk catastrophic failure blah blah blah. Then there was the confusion with python, python2 and python3... ai meu deus. &lt;/li&gt;
-&lt;li&gt;finding a reliable guide on how to do any of this. I had 0 knowledge of how to make this happen 24 hours ago. Thank you to &lt;a href="https://www.fullstackpython.com/blog/generating-static-websites-pelican-jinja2-markdown.html"&gt;Matt&lt;/a&gt; , &lt;a href="https://www.archerimagine.com/articles/pelican/cost-effective-blogging-with-Pelican-and-Github.html"&gt;Archer Image&lt;/a&gt; , and &lt;a href="https://pythonforundergradengineers.com/how-i-built-this-site-1.html"&gt;Peter&lt;/a&gt; for their well written articles. It's my fault I couldn't follow them very well haha. I made soooooo many mistakes to get here.&lt;/li&gt;
-&lt;li&gt;installing pelican and the relevant packages. Reading the pelican documentation (some of it at least)&lt;/li&gt;
-&lt;li&gt;finding a theme! omg the pelican themes SUCK, but I finally landed on &lt;a href="https://bootswatch.com/cyborg/"&gt;Cyborg&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;trying to understand the file structure. soooo much sudo rm -rf &lt;/li&gt;
-&lt;li&gt;learning a bit of git / setting up github (I'm 100% sure I've only scratched the surface and the thought of that simultaneously motivates me and makes me wanna smash this computer with a cricket bat)&lt;/li&gt;
-&lt;li&gt;the bloody terminal. ughh a typical worflow in Terminal goes like this (for me, a noob) 1. confidently enter command 2. spend 1 hour fixing error message. 3. repeat indifinitely &lt;/li&gt;
-&lt;li&gt;learning Markdown. Thank you &lt;a href="https://www.markdownguide.org/basic-syntax/"&gt;MarkdownGuide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;upgrading to GitHub pro ($)&lt;/li&gt;
-&lt;li&gt;and patience. lots and lots of patience. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I wanted to properly document all the problem solving involved, but the best I could do was bookmark links to the very helpful answers on Stack Overflow.&lt;/p&gt;
-&lt;p&gt;One might also be wondering why I chose to create the blog using Pelican. Reason: I'd like to expose myself to Python as much as possible. That's it.&lt;/p&gt;
-&lt;p&gt;Oh hey, it's my birthday and it's also 2:30am. Great way to kick off 25. &lt;/p&gt;
-&lt;p&gt;Anyway, I'm beat. &lt;/p&gt;
-&lt;p&gt;Until next time,&lt;/p&gt;
-&lt;p&gt;shak&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>ps -ax | grep mysql</title><link href="https://shakyracornelius.github.io/shakyracc/ps-ax-grep-mysql.html" rel="alternate"></link><published>2022-07-02T00:00:00-04:00</published><updated>2022-07-02T00:00:00-04:00</updated><author><name>shak</name></author><id>tag:shakyracornelius.github.io,2022-07-02:/shakyracc/ps-ax-grep-mysql.html</id><summary type="html">&lt;p&gt;Used to check for the MySQL processes working in the background. &lt;/p&gt;
-&lt;h4&gt;ps&lt;/h4&gt;
-&lt;p&gt;Short for Process Status, the ps command is used to list the status of running processes in the system. By default, it only lists processes of the current user. &lt;/p&gt;
-&lt;h4&gt;-ax&lt;/h4&gt;
-&lt;p&gt;An option passed to ps which allows one …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Used to check for the MySQL processes working in the background. &lt;/p&gt;
-&lt;h4&gt;ps&lt;/h4&gt;
-&lt;p&gt;Short for Process Status, the ps command is used to list the status of running processes in the system. By default, it only lists processes of the current user. &lt;/p&gt;
-&lt;h4&gt;-ax&lt;/h4&gt;
-&lt;p&gt;An option passed to ps which allows one to list all process, even beyond the current user. 
-- - specifies a standard output. often used as synonym for stdin or stdout.
-- a lists processes for all users
-- x shows processes not attached to a terminal (i.e. not initiated by users through a terminal) &lt;/p&gt;
-&lt;h4&gt;| grep&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;grep with a pipe allows one to search for specific processes. The use of the pipe here is called "piping", which redirects the output of one command to the input of another command.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;mysql&lt;/h4&gt;
-&lt;p&gt;specifies mysql processes &lt;/p&gt;</content><category term="blog"></category><category term="sql"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shakyra C. Cornelius - blog</title><link href="https://shakyracornelius.github.io/shakyracc/" rel="alternate"></link><link href="https://shakyracornelius.github.io/shakyracc/feeds/blog.atom.xml" rel="self"></link><id>https://shakyracornelius.github.io/shakyracc/</id><updated>2022-07-06T00:00:00-04:00</updated><entry><title>Alain de Botton: On Love | Digital Season</title><link href="https://shakyracornelius.github.io/shakyracc/notes-alain-de-botton-on-love.html" rel="alternate"></link><published>2020-10-30T00:00:00-04:00</published><updated>2022-07-06T00:00:00-04:00</updated><author><name>shak</name></author><id>tag:shakyracornelius.github.io,2020-10-30:/shakyracc/notes-alain-de-botton-on-love.html</id><content type="html">&lt;p&gt;Here are my notes on a &lt;a href="" title="https://www.youtube.com/watch?v=Ctz6eJ3Pr94"&gt;talk&lt;/a&gt; Alain de Botton gave in 2016 about romanticism. As someone who struggled with &lt;a href="'https://livingwithlimerence.com/what-is-limerence/"&gt;Limerence&lt;/a&gt; for as long as I can remember (honestly until June 2022, age 24), this talk changed my life and I've listened to it at least 12 times. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Notes-Alain-De-Botton-On-Love-1" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-1.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-2" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-2.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-3" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-3.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-4" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-4.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-5" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-5.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-6" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-6.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-7" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-7.jpg"&gt;
+&lt;img alt="Notes-Alain-De-Botton-On-Love-8" src="https://shakyracornelius.github.io/shakyracc/images/Notes-Alain-De-Botton-On-Love-8.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category><category term="notes"></category></entry></feed>

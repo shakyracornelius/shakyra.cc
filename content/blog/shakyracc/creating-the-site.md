@@ -1,6 +1,6 @@
 title: Creating the Site
 date: 2022-07-03
-tag: pelican, bootstrap3
+tags: pelican
 slug: creating-the-site
 
 It took me 24 long, frustrating hours to create this site. 
