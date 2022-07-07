@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Creating the Site 👩🏾‍💻 Shakyra C. Cornelius</title>
+    <title>Setting Up MySQL on Mac 👩🏾‍💻 Shakyra C. Cornelius</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,20 +11,20 @@
     
 
 
-<link rel="canonical" href="./creating-the-site.html">
+<link rel="canonical" href="./setting-up-mysql-mac.html">
 
         <meta name="author" content="shak" />
-        <meta name="keywords" content="pelican" />
-        <meta name="description" content="It took me 24 long, frustrating hours to create this site. I know I know... it doesn&#39;t look very impressive, but the creation of this site involved: registering the domains ($) installing python. which apparently isn&#39;t so straight forward when your mac comes with python already but that version shouldn&#39;t be …" />
+        <meta name="keywords" content="sql" />
+        <meta name="description" content="I&#39;m using MySQL server because the book I&#39;m currently using to learn SQL (Learn SQL by Alan Beaulieu) uses it for all the examples. System Overview macOS Monterey version 12.4 MacBook Air (13-inch, 2017) 1.8 GHz Dual-Core Intel Core i5 8GB 1600 MHz DDR3 Setting up MySQL on …" />
 
         <meta property="og:site_name" content="Shakyra C. Cornelius" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Creating the Site"/>
-        <meta property="og:url" content="./creating-the-site.html"/>
-        <meta property="og:description" content="It took me 24 long, frustrating hours to create this site. I know I know... it doesn&#39;t look very impressive, but the creation of this site involved: registering the domains ($) installing python. which apparently isn&#39;t so straight forward when your mac comes with python already but that version shouldn&#39;t be …"/>
-        <meta property="article:published_time" content="2022-07-03" />
-            <meta property="article:section" content="shakyracc" />
-            <meta property="article:tag" content="pelican" />
+        <meta property="og:title" content="Setting Up MySQL on Mac"/>
+        <meta property="og:url" content="./setting-up-mysql-mac.html"/>
+        <meta property="og:description" content="I&#39;m using MySQL server because the book I&#39;m currently using to learn SQL (Learn SQL by Alan Beaulieu) uses it for all the examples. System Overview macOS Monterey version 12.4 MacBook Air (13-inch, 2017) 1.8 GHz Dual-Core Intel Core i5 8GB 1600 MHz DDR3 Setting up MySQL on …"/>
+        <meta property="article:published_time" content="2022-07-01" />
+            <meta property="article:section" content="sql" />
+            <meta property="article:tag" content="sql" />
             <meta property="article:author" content="shak" />
 
 
@@ -40,8 +40,8 @@
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Shakyra C. Cornelius ATOM Feed"/>
 
-        <link href="./feeds/shakyracc.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Shakyra C. Cornelius shakyracc ATOM Feed"/>
+        <link href="./feeds/sql.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Shakyra C. Cornelius sql ATOM Feed"/>
 </head>
 <body>
 
@@ -83,10 +83,10 @@ Shakyra C. Cornelius            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./creating-the-site.html"
+                    <a href="./setting-up-mysql-mac.html"
                        rel="bookmark"
-                       title="Permalink to Creating the Site">
-                        Creating the Site
+                       title="Permalink to Setting Up MySQL on Mac">
+                        Setting Up MySQL on Mac
                     </a>
                 </h1>
             </header>
@@ -96,7 +96,7 @@ Shakyra C. Cornelius            </a>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2022-07-03T00:00:00-04:00"> Sun 03 July 2022</time>
+        <i class="fa fa-calendar"></i><time datetime="2022-07-01T00:00:00-04:00"> Fri 01 July 2022</time>
     </span>
 
 
@@ -104,31 +104,46 @@ Shakyra C. Cornelius            </a>
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/pelican.html">pelican</a>
+	<a href="./tag/sql.html">sql</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>It took me 24 long, frustrating hours to create this site. </p>
-<p>I know I know... it doesn't look very impressive, but the creation of this site involved:</p>
-<ul>
-<li>registering the domains ($)</li>
-<li>installing python. which apparently isn't so straight forward when your mac comes with python already but that version shouldn't be messed with...risk catastrophic failure blah blah blah. Then there was the confusion with python, python2 and python3... ai meu deus. </li>
-<li>finding a reliable guide on how to do any of this. I had 0 knowledge of how to make this happen 24 hours ago. Thank you to <a href="https://www.fullstackpython.com/blog/generating-static-websites-pelican-jinja2-markdown.html">Matt</a> , <a href="https://www.archerimagine.com/articles/pelican/cost-effective-blogging-with-Pelican-and-Github.html">Archer Image</a> , and <a href="https://pythonforundergradengineers.com/how-i-built-this-site-1.html">Peter</a> for their well written articles. It's my fault I couldn't follow them very well haha. I made soooooo many mistakes to get here.</li>
-<li>installing pelican and the relevant packages. Reading the pelican documentation (some of it at least)</li>
-<li>finding a theme! omg the pelican themes SUCK, but I finally landed on <a href="https://bootswatch.com/cyborg/">Cyborg</a>.</li>
-<li>trying to understand the file structure. soooo much sudo rm -rf </li>
-<li>learning a bit of git / setting up github (I'm 100% sure I've only scratched the surface and the thought of that simultaneously motivates me and makes me wanna smash this computer with a cricket bat)</li>
-<li>the bloody terminal. ughh a typical worflow in Terminal goes like this (for me, a noob) 1. confidently enter command 2. spend 1 hour fixing error message. 3. repeat indifinitely </li>
-<li>learning Markdown. Thank you <a href="https://www.markdownguide.org/basic-syntax/">MarkdownGuide</a></li>
-<li>upgrading to GitHub pro ($)</li>
-<li>and patience. lots and lots of patience. </li>
+                <p>I'm using MySQL server because the book I'm currently using to learn SQL (Learn SQL by Alan Beaulieu) uses it for all the examples. </p>
+<p>System Overview 
+    macOS Monterey version 12.4<br>
+    MacBook Air (13-inch, 2017)<br>
+    1.8 GHz Dual-Core Intel Core i5
+    8GB 1600 MHz DDR3</p>
+<h4>Setting up MySQL on macOS</h4>
+<p>I'm following https://dev.mysql.com/doc/mysql-macos-excerpt/5.7/en/macos-installation-pkg.html </p>
+<ol>
+<li>Download the disk image (.dmg) file that contains the MySQL package installer <a href="https://dev.mysql.com/downloads/mysql/">here</a>.</li>
+<li>Select OS Version: macOS12(x86, 64-bit) </li>
+<li>Select Download for DMG Archive</li>
+<li>Select "No thanks, just start my download" when asked to Login Now.</li>
+<li>Once the download is complete select the .dmg file to mount the disk image and see its contents. </li>
+<li>Double-click the MySQL installer package to open the MySQL package installer wizard. In my case the installer package is named <em>mysql-8.0.29-macos12-x86_64.pkg</em>. <br>
+    Select Allow when the security message pops up.</li>
+<li>Once the installer wizard is open, <ul>
+<li>Select Continue to start the installation, </li>
+<li>Continue and Agree to the terms and conditions  </li>
+<li>Install to begin the installation process </li>
 </ul>
-<p>I wanted to properly document all the problem solving involved, but the best I could do was bookmark links to the very helpful answers on Stack Overflow.</p>
-<p>One might also be wondering why I chose to create the blog using Pelican. Reason: I'd like to expose myself to Python as much as possible. That's it.</p>
-<p>Oh hey, it's my birthday and it's also 2:30am. Great way to kick off 25. </p>
-<p>Anyway, I'm beat. </p>
-<p>Until next time,</p>
-<p>shak</p>
+</li>
+<li>After installation is complete, in the configuration window select "Use Strong Password Encryption".</li>
+<li>Enter a password for the "root" user then select Finish.</li>
+<li>Decide if you want to keep the installer around. I personally move these files to bin.</li>
+<li>Open System Preferences to find that MySQL is installed.</li>
+<li>Open terminal by hitting Command + Space on your keyboard and typing Terminal. Select Terminal</li>
+<li>Run <code>mysql -u root -p</code> to start working with MySQL in the terminal. <ul>
+<li>mysql = an SQL shell with input line editing capabilities.</li>
+<li>u = (user_name) the username of the MySQL account to use for connecting to the server.</li>
+<li>-u root = execute the command as the root user.</li>
+<li>-p = (password) the password of the MySQL account used for connecting to the server<br></li>
+</ul>
+</li>
+</ol>
+<p>Learn more about mysql, the MySQL command line client [here])https://dev.mysql.com/doc/refman/8.0/en/mysql.html) and from <a href="https://linux.die.net/man/1/mysql">man mysql</a>.</p>
             </div>
             <!-- /.entry-content -->
         </article>
