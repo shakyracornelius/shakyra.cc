@@ -71,6 +71,7 @@ I18N_TEMPLATES_LANG = 'en'
 
 # Custom CSS/JS
 CUSTOM_CSS = 'static/css/custom.css'
+GOOGLEFONT = 'https://fonts.googleapis.com/css?family=Roboto'
 GOOGLEFONT = 'https://fonts.googleapis.com/css?family=Source+Serif+Pro'
 CUSTOM_JS = 'static/js/custom.js'
 
@@ -84,7 +85,7 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_ARCHIVE_ON_MENU = True
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
-DISPLAY_ARTICLE_INFO_ON_INDEX = True
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
 
 
 

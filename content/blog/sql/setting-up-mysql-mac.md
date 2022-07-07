@@ -37,7 +37,7 @@ I'm following https://dev.mysql.com/doc/mysql-macos-excerpt/5.7/en/macos-install
     - -u root = execute the command as the root user.
     - -p = (password) the password of the MySQL account used for connecting to the server<br>
 
-Learn more about mysql, the MySQL command line client [here])https://dev.mysql.com/doc/refman/8.0/en/mysql.html) and from [man mysql](https://linux.die.net/man/1/mysql).
+Learn more about mysql, the MySQL command line client [here](https://dev.mysql.com/doc/refman/8.0/en/mysql.html) and from [man mysql](https://linux.die.net/man/1/mysql).
 
  
 
