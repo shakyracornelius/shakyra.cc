@@ -4,7 +4,7 @@ modified: 2022-07-02
 tags: sql
 slug: ps-ax-grep-mysql
 
-Used to check for the MySQL processes working in the background. 
+`ps -ax | grep mysql`  is used to check for the MySQL processes working in the background. 
 
 #### ps
 
