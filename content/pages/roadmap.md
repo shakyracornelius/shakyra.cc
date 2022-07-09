@@ -9,7 +9,7 @@ This site is a work in progress. Here's the roadmap, a list of tasks to complete
 |------------    |----------------------    |------------------------------------------------------------------------------------------------------------------------------------------    |-------------    |------------    |
 | 2022-07-03     | create site              |                                                                                                                                              | done            | 2022-06-03     |
 | 2022-07-03     | create site roadmap      |                                                                                                                                              | done            | 2022-07-05     |
-| 2022-07-03     | create homepage          |                                                                                                                                              |                 |                |
+| 2022-07-03     | create homepage          |                                                                                                                                              | done            | 2022-07-05     |
 | 2022-07-03     | create /now              |                                                                                                                                              |                 |                |
 | 2022-07-03     | create /about            |                                                                                                                                              |                 |                |
 | 2022-07-03     | create /uses             |                                                                                                                                              |                 |                |
@@ -21,7 +21,7 @@ This site is a work in progress. Here's the roadmap, a list of tasks to complete
 | 2022-07-03     | create /wiki             | inspo:<br>- wiki.nikiv.dev                                                                                                                   |                 |                |
 | 2022-07-03     | create /resume           | inspo:<br>- AwesomeCV                                                                                                                        |                 |                |
 | 2022-07-03     | create /month-review     | inspo:<br>- bellebcooper.com                                                                                                                 |                 |                |
-| 2022-07-03     | create /blog             | inspo: <br>- flaviocopes.com                                                                                                                 |                 |                |
+| 2022-07-03     | create /blog (tag cloud) | inspo: <br>- flaviocopes.com                                                                                                                 |                 |                |
 
 
 onwards and upwards ! 🤸🏾‍♂️
