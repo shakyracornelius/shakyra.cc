@@ -1,6 +1,6 @@
 # Details
-AUTHOR = 'shak'
-SITENAME = 'Shakyra C. Cornelius'
+AUTHOR = 'shakyra'
+SITENAME = 'Shakyra'
 SITEURL = ''
 TIMEZONE = 'America/Antigua'
 DEFAULT_LANG = 'en'

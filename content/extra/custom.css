@@ -1,6 +1,6 @@
 body {
-    font-family: "Source Serif Pro",Helvetica,Arial,sans-serif;
-    color: #FFFFFF;
+    font-family: "Source Sans Pro, Roboto",Helvetica,Arial,sans-serif;
+    color: #daeef5c8;
     font-size: 18px;
     letter-spacing : .2rem;
     line-height: 1.728571;
@@ -10,28 +10,27 @@ body {
 
 h1, h2, h3, h4 {
     font-family: "Roboto",Helvetica,Arial,sans-serif;
-    color: #EFF7FA;
+    color: #daeef5c8;
 }
 
 code {
     color: #29708E;
-    background: #EFF7FA;
+    background: #daeef5c8;
     border-radius:5px;
 }
 
-
 a {
-    color: #EFF7FA;
+    color: #daeef5c8;
 }
 
 .panel {
     background: #0A191F;
-    color: #F1F9FC;
+    color: #daeef5c8;
 }
 
 .label {
     background: #050C10;
-    color: #F1F9FC;
+    color: #daeef5c8;
 }
 
 .navbar-inverse {

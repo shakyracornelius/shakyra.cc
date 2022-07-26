@@ -70,7 +70,7 @@ use `git add .` <br>
 use `git commit -m "add barriers-to-entry.md"` <br>
 use `git push origin main` <br>
 use `ghp-import output` to post contents of the output directory to gh-pages branch <br>
-use `git push -f origin gh-pages` <br>
+use `git push -f origin gh-pages` <br> to push to gh-pages. this didn't take more than a second surprisingly. awesome. 
 
 
 

@@ -6,7 +6,7 @@ save_as: index.html
 <br>
 <h1 align="center">👋🏾<br>Hello!</h1>
 <br>
-<h4 align="center">I'm <a href="https://www.twitter.com/shakyracc">shak</a> </h4>
+<h4 align="center">I'm <a href="https://www.twitter.com/shakyracc">Shakyra</a> </h4>
 <br>
 <p align="center">Here to learn. Here to share. </p>
 
